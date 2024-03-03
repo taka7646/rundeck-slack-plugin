@@ -1,4 +1,4 @@
-package com.plugin.rundeckslackplugin;
+package com.taka7646.rundeck.plugin;
 
 import com.dtolabs.rundeck.plugins.notification.NotificationPlugin;
 import com.dtolabs.rundeck.core.plugins.Plugin;

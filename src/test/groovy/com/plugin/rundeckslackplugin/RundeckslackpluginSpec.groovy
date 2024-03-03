@@ -1,4 +1,4 @@
-package com.plugin.rundeckslackplugin
+package com.taka7646.rundeck.plugin
 
 import spock.lang.Specification
 

@@ -11,7 +11,7 @@ apply plugin: 'idea'
 sourceCompatibility = 1.8
 ext.rundeckPluginVersion= '2.0'
 ext.rundeckVersion= '3.0.x'
-ext.pluginClassNames='com.plugin.rundeckslackplugin.Rundeckslackplugin'
+ext.pluginClassNames='com.taka7646.rundeck.plugin.Rundeckslackplugin'
 
 
 repositories {
