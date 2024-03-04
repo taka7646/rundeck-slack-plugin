@@ -14,7 +14,9 @@ gradle build
 
 ## JOB変数の置換
 * {ID} JobID
+* {PROJECT} Projectの名前
 * {JOB} Jobの名前
+* {JOB_URL} Jobの名前
 * {STATUS} succeeded / failed 
 * {URL} JobのURL
 * {USER} Jobを実行したユーザー

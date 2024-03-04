@@ -47,12 +47,13 @@ public class Rundeckslackplugin implements NotificationPlugin{
         message = message.replace("\\n", "\n");
         message = message.replace("<br>", "\n");
         message = message.replace("{STATUS}", (String)executionData.get("status"));
-        message = message.replace("{JOB}", (String)executionData.get("project"));
+        message = message.replace("{PROJECT}", (String)executionData.get("project"));
         message = message.replace("{URL}", (String)executionData.get("href"));
         message = message.replace("{ID}", executionData.get("id").toString());
         message = message.replace("{USER}", (String)executionData.get("user"));
         message = message.replace("{NODE}", (String)executionData.get("succeededNodeListString"));
         Map<String,String> job = (Map<String,String>)executionData.get("job");
+        message = message.replace("{JOB}", job.get("name"));
         message = message.replace("{JOB_URL}", job.get("href"));
         // JOBオプションを置換
         Map<String,Object> context = (Map<String,Object>)executionData.get("context");
